@@ -61,25 +61,25 @@ You can create AIM service accounts from here: [GCP AIM](https://console.cloud.g
 
 You need to add the orchestrator service account in the other projects with the necessary permissions for Dialogflow.
 
-1. Orchestator Project
+### Orchestator Project
 
-1.1 Create a Account Service and add clave into the Account Service
-Link: https://console.cloud.google.com/iam-admin/serviceaccounts
-Example orchestrator email: df-demo-ci-cd@df-demo-project-orchestator.iam.gserviceaccount.com
+  1. Create a Account Service and add clave into the Account Service \
+  Link: https://console.cloud.google.com/iam-admin/serviceaccounts \
+  Example orchestrator email: df-demo-ci-cd@df-demo-project-orchestator.iam.gserviceaccount.com
 
-1.2 Create a Bucket into the Cloud Storage
-Link: https://console.cloud.google.com/storage/browser
-Example name: df-demo-ci-cd
+  2. Create a Bucket into the Cloud Storage
+  Link: https://console.cloud.google.com/storage/browser \
+  Example name: df-demo-ci-cd
 
-1.3 Active the Dialogflow API Service
-Link: https://console.cloud.google.com/apis/library/dialogflow.googleapis.com
+  3. Active the Dialogflow API Service
+  Link: https://console.cloud.google.com/apis/library/dialogflow.googleapis.com
 
-2. Dev,Test and Prod Projects
+### Dev,Test and Prod Projects
 
-2.1 Add the Account Service of the Orchestator Project
-Link: https://console.cloud.google.com/iam-admin/iam
-Example orchestrator email: df-demo-ci-cd@df-demo-project-orchestator.iam.gserviceaccount.com
-Function: Administrador de la API de Dialogflow
+  1. Add the Account Service of the Orchestator Project \
+  Link: https://console.cloud.google.com/iam-admin/iam \
+  Example orchestrator email: df-demo-ci-cd@df-demo-project-orchestator.iam.gserviceaccount.com \
+  Function: Administrador de la API de Dialogflow
 
 
 ## 📐 How to work with this project
