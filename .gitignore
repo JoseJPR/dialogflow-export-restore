@@ -1,0 +1,5 @@
+node_modules
+agents/*
+!agents/empty
+.env
+package-lock.json
